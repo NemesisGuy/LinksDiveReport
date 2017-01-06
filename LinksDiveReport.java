@@ -7,12 +7,20 @@ import java.net.URLConnection;
 import java.util.Date;
 
 
+
 public class LinksDiveReport{
 
 	public static void main(String [] args)throws Exception{
-
+		//call getTodaysDate()
+		//call getDataSet()
+		//call dataParse()
 	}
 	public static void getTodaysDate(){
+		//get date
+		//call date format
+	}
+	public static void formatDate(){
+		//format date
 	}
 	public static void getDataSet(){
 		// Make a URL to the web page
@@ -38,6 +46,10 @@ public class LinksDiveReport{
 			 	System.out.println(e.getMessage());
 			 	System.exit(1);
 			}
+
 	}
+	public static void dataParse(){
+				//parse data here
+		}
 
 }
